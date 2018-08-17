@@ -41,5 +41,11 @@ pipeline {
                 } 
             } // Parallel
         } // stage - process HWs
+        stage('Generate Feedback Skeleton') {
+            steps {
+                echo 'Generate Feedback Skeleton'
+                // TBD
+            }
+        }
     } // stages             
 } // pipeline
