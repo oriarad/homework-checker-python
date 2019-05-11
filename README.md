@@ -8,3 +8,23 @@ So, this project is a framework that helps the teacher/instructor to automatical
 * Summaries the tests results - for each student
 * Execute coding-conventions checkers (in case instructed to follow)
 * Produce a RTF/Word documents to the submitted code, for each submitted file - so the teacher will be able to review and comment each student submission
+
+
+# Example
+Put under "submissions" folder, all the submissions - every student, under seperate folder:
+
+- Root
+  - submissions
+    - John_Smith
+      - myfile.py
+      - another_file_to_test.py
+    - John_Smith
+      - myfile.py
+      - another_file_to_test.py
+    - John_Smith
+      - myfile.py
+      - another_file_to_test.py
+  - execute_all_tests.bat
+```bat
+execute_all_tests.bat submissions
+```
