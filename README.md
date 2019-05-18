@@ -11,20 +11,27 @@ So, this project is a framework that helps the teacher/instructor to automatical
 
 
 # Example
-Put under "submissions" folder, all the submissions - every student, under seperate folder:
+Put under the root folder, your test case file, the "script" folder content, and under "submissions" folder, all the submissions - every student, under seperate folder:
 
 - Root
   - submissions
     - John_Smith
       - myfile.py
       - another_file_to_test.py
-    - John_Smith
+    - Rick_Sanchez
       - myfile.py
       - another_file_to_test.py
-    - John_Smith
+    - Keyser_Soze
       - myfile.py
       - another_file_to_test.py
+    - Louis_Cyphre
+      - myfile.py
+      - another_file_to_test.py      
   - execute_all_tests.bat
+  - test_homework3.py
 ```bat
 execute_all_tests.bat submissions
 ```
+
+# Results
+![Image of tests_images](resources/results_example.PNG)
